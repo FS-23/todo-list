@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+</head>
+<body style="background-color: coral; color: beige;" >
+    <div id="text-container">
+
+    </div>
+    <section>
+        <h1>My to do list</h1>
+        <div id="todo-detail-container" style="display: none">
+            <div style="border: 2px solid black; width: 500px; ">
+                <div>
+
+                <h2 style="border-bottom: 2px solid black; text-align: center;" >Detail <span id="todoId"></span> </h2>
+
+                </div>
+                <div>
+                    <h3> Title: <span id="todo_title"></span> </h3> 
+                    <h4>User: <span id="todo_user" ></span> </h4>
+                </div>
+            </div>
+            <button id="return-btn">List</button>
+        </div>
+        <div id="todo-list-container" >
+             <ul id="todo-list">
+             </ul>
+        </div>
+    </section>
+    <script src="/todo.js"></script>
+    <script>
+        //   console.log("new error", new Error("OOOOPS !!!!"))
+        //   function logUser(user){
+        //        try{
+        //         console.lon(user);
+        //        document.getElementById("text-container").innerText= user.name
+        //   }
+        //   catch(err){
+        //       console.log("erreur : ",err.message)
+        //       document.getElementById("text-container").innerText= err.message
+        //   }
+        //        }
+        //   logUser({name:"noor"})
+    </script>
+</body>
+</html>
